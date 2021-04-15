@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px;
+    color: #332d2d;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.logo img:nth-child(2) {
+    margin-left: 50px;
+}
+
+nav {
+    margin-left: auto;
+    padding-top: 13px;
+    font-weight: bold;
+    color: #332d2d;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 20px;
+    padding: 0px 50px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+
+nav ul li a:hover {
+    letter-spacing: 2px;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.middle-text div {
+    margin-left: 10%;
+}
+
+.middle-text div:nth-child(2) {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+
+.middle-text div:nth-child(1) {
+    font-size: 10px;
+    margin-top: 50px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+.middle-text div:nth-child(3) {
+    font-size: 10px;
+    margin-top: 50px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+
+#joypad {
+    width: 50%;
+    height: 70%;
+    background-color: rgb(126, 126, 126, 15%);
+    position: absolute;
+    top: 32%;
+    left: 30%;
+}
+
+#joypad div {
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+#side-trailer {
+    width: 150px;
+    height: 50%;
+    background-color: rgb(126, 126, 126, 15%);
+    position: absolute;
+    top: 30%;
+    left: 89%;
+}
+
+.trailer {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 32%;
+    left: 84%;
+}
+
+.trailer video {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+
+.latest-trailer p {
+    position: absolute;
+    top: 27%;
+    left: 84%;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.latest-games {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    left: 0;
+}
+
+.latest-games div:nth-child(2) {
+    display: flex;
+}
+
+.latest-games div:nth-child(1) {
+    margin-left: 26%;
+    text-decoration: underline;
+    color: #332d2d;
+    font-weight: bold;
+}
+
+.latest-games div:nth-child(2) img {
+    height: 100px;
+    width: 200px;
+    margin-right: 10px;
+    position: relative;
+    left: -20%;
+}
+
+.latest-games div:nth-child(2) a {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 15px;
+    background-color: #3b69e6;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: -20%;
+}
+
+.latest-games div:nth-child(2) a:hover {
+    transition: all 2s ease-out;
+    background-color: #332d2d;
+    color: #fff;
+}
+
+.latest-games div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.latest-games div:nth-child(3) p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.latest-games div:nth-child(3) p:first-child {
+    color: #3b69e6;
+}
+
+.latest-games div:nth-child(3) span {
+    width: 100px;
+    height: 5px;
+    background-color: #332d2d;
+}
+
+.learn-more {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.learn-more h3,
+p {
+    margin-bottom: 20px;
+}
+
+.learn-more div {
+    background-color: #3b69e6;
+    display: inline-block;
+    margin-bottom: 10;
+    padding: 10px 15px;
+}
+
+.learn-more div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.learn-more div:hover {
+    transition: all 2s ease-out;
+    background-color: #332d2d;
+    color: #fff;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2%;
+    left: 85%;
+}
+
+.social h2 {
+    color: #3b69e6;
+}
+
+.social div:nth-child(1) {
+    line-height: 3rem;
+}
+
+.social div:nth-child(2) {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.social img {
+    width: 20px;
+    padding: 5px 2px;
+    margin: 0 10px;
+    transition: all .5s ease-in;
+}
+
+.social img:hover {
+    transform: translateY(-5px);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(126,126,126,34%);
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    z-index: -1;
+    animation-name: circle1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle1 {
+    25% {
+        left: 50%;
+        top: 300px;
+    }
+    50% {
+        left: 25%;
+        top: 0;
+    }
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 40px solid  transparent;
+	border-right: 40px solid transparent;
+    border-bottom: 80px solid rgba(126,126,126,10%);
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    z-index: -1;
+    animation-name: triangle1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes triangle1 {
+    25% {
+        left: 70%;
+        top: 1%;
+    }
+
+    50% {
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.cube {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid rgba(126,126,126,34%);
+    position: absolute;
+    top: 25%;
+    left: 76%;
+    z-index: -10;
+    animation-name: cube1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cube1 {
+    25% {
+        left: 0;
+        top: 25%;
+    }
+
+    50% {
+        left: 0;
+        top: 50%;
+    }
+
+    75% {
+        left: 75%;
+        top: 50%;
+    }
+}
